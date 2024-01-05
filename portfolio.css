@@ -1,0 +1,171 @@
+/* -------------------------------- Header ----------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background-color: rgb(245, 245, 0);
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+nav {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 120px;
+    font-size: 38px;
+}
+
+.op {
+    color: blue;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: blue;
+
+}
+
+.btn {
+    padding: 13px 27px;
+    margin-right: 30px;
+    margin-top: 5px;
+    background: blue;
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: background 0.6s;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid blue;
+    color: black;
+}
+
+.con1 {
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+.into {
+    font-size: 80px;
+}
+
+.ewd {
+    margin-top: 8px;
+    font-size: 50px;
+}
+
+.blue {
+    color: blue;
+}
+
+p {
+    color: rgb(64, 62, 62);
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 36%;
+    margin-top: 10px;
+}
+
+.line {
+    margin-top: 42px;
+    width: 5%;
+    height: 2.9px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.butn {
+    margin-left: 5px;
+    padding: 13px 27px;
+    margin-right: 30px;
+    margin-top: 5px;
+    background: blue;
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: background 0.6s;
+    border-radius: 4px;
+}
+
+.butn:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid blue;
+    color: black;
+}
+
+.butn3 {
+    margin-left: -20px;
+    padding: 13px 27px;
+    border: 2px solid blue;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.6s;
+    position: relative;
+}
+.butn3:hover{
+    background-color: blue;
+    color: white;
+}
+.img{
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    width: 564px;
+}
+
+
+/* ----------------about ------------------------------- */
+.cont1{
+    margin-left: 130px;
+}
+.per{
+    font-size: 50px;
+}
+.ins{
+    color: blue;
+}
+.pais{
+    max-width: 29%;
+    line-height: 28px;
+    position: relative;
+}
+.imge{
+    width: 450px;
+    position: absolute;
+    top: 730px;
+    right: 260px;
+}
